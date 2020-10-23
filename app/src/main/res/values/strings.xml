@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">MedConnect</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_group">Groups</string>
+    <string name="dp">Display Picture</string>
+    <string name="logo_description">MedConnect Logo</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="no_account">Don\'t Have an Account?  GET STARTED</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_in">Sign In</string>
+    <string name="retrieve_password">Retrieve Password</string>
+    <string name="last_name">Last Name</string>
+    <string name="First_name">First Name</string>
+    <string name="already_signup">Already Have an Account?  Sign In</string>
+    <string name="verification">Verification Email Sent</string>
 </resources>

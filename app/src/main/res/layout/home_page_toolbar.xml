@@ -1,0 +1,64 @@
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:background="@color/primaryColor"
+    android:elevation="15sp"
+    android:paddingHorizontal="20sp"
+    app:contentInsetStart="0dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="320sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="6dp"
+            android:autofillHints="@android:string/search_go"
+            android:background="@drawable/search_border"
+            android:drawableStart="@drawable/ic_search_black_24dp"
+            android:drawablePadding="10sp"
+            android:ems="10"
+            android:hint="@android:string/search_go"
+            android:inputType="textPersonName"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"
+            android:textColor="@color/light_black"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/circle_avatar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.521" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/circle_avatar"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/dp"
+                android:padding="2sp"
+                android:src="@drawable/ic_person_black_24dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.appcompat.widget.Toolbar>
