@@ -51,7 +51,9 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:clickable="false"
                 android:contentDescription="@string/dp"
+                android:onClick="gotoProfile"
                 android:padding="2sp"
                 android:src="@drawable/ic_person_black_24dp" />
 

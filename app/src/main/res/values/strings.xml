@@ -15,4 +15,16 @@
     <string name="First_name">First Name</string>
     <string name="already_signup">Already Have an Account?  Sign In</string>
     <string name="verification">Verification Email Sent</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="group_logo_description">the logo of the group</string>
+    <string name="group_name">group_name</string>
+    <string name="join">JOIN</string>
+    <string name="show_answers">Show Answers</string>
+    <string name="title_activity_answer">AnswerActivity</string>
+    <string name="textview">TextView</string>
+    <string name="what_is_your_question">What is your Question?</string>
+    <string name="submit">SUBMIT</string>
+    <string name="input_your_question_here">Input your question here</string>
 </resources>
